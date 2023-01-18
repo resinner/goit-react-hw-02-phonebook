@@ -16,7 +16,7 @@ class App extends Component {
     filter: '',
   };
 
-  // Додає контакт (зробит  окремо)
+  // Додає контакт (зробити окремо)
   addContact = newContact => {
     // Перевірка дубля
     const duplicateName = this.state.contacts.find(
